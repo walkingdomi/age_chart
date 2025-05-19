@@ -1,1 +1,7 @@
 streamlit
+streamlit-echarts
+matplotlib
+pandas
+matplotlib
+matplotlib
+plotly
