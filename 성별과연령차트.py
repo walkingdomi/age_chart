@@ -4,8 +4,7 @@ from streamlit_echarts import st_echarts
 import plotly.graph_objects as go
 
 # 데이터 불러오기
-file_path = r"C:\Users\dohyu\OneDrive\DOCUME~1-DESKTOP-7UOBLKN-51910\명지대학교\2025-1학기\캡스톤 디자인\자치구별_연령별_성별_인구수_UTF8BOM_sorted.csv"
-df = pd.read_csv(file_path)
+df = pd.read_csv("자치구별_연령별_성별_인구수_UTF8BOM_sorted.csv")
 
 # 자치구 선택
 gu_list = df['자치구'].unique()
